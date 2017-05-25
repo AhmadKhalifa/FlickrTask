@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:orientation="vertical"
+                android:background="@color/transparent_grey"
+                android:padding="@dimen/widget_margin">
+
+    <LinearLayout
+        android:layout_margin="@dimen/widget_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/appwidget_search_keyword"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:padding="8dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh"/>
+
+    </LinearLayout>
+
+
+    <GridView
+        android:id="@+id/appwidget_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

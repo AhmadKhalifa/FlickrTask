@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task</string>
+
+    <string name="api_key">d14678caab8bf1d110bceb55d021b88c</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
