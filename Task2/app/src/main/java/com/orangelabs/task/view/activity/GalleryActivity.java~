@@ -114,7 +114,7 @@ public class GalleryActivity extends AppCompatActivity
 
     @Override
     public void onImageClicked(View view, Image image) {
-//        Toast.makeText(this, new FlickrCache(this).getLastQuery().getImagesIds().size() + "", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, new FlickrCache(this).getLastQuery().getImagesIds().size() + "", Toast.LENGTH_LONG).show();
         if (image != null) {
             ImageFragment fragment = ImageFragment.getInstance(mFlickrCache, image);
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
